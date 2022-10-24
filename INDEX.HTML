@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marmar Shopping</title>
+    <link rel="icon" href="./Assets/Marmar icon.png" />
+    <script src="https://kit.fontawesome.com/11c5ffa870.js" crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+    <!--Body part-->
+  <body>
+    <!--header part-->
+    <header>
+      <nav class="navbar bg-light" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./Assets/Marmar icon.png"
+              alt="Logo"
+              width="50"
+              height="50"
+              class="d-inline-block align-text-top"
+            />
+            Marmar Shopping
+          </a>
+          <img src="./Assets/panier.png" alt="panier" width="50" height="50" />
+        </div>
+      </nav>
+    </header>
+    <!--main part-->
+    <main>
+      <section class="card">
+        <img class="product"
+          src="./Assets/lunettes-de-soleil.jpg" width="200" height="150" alt="lunettes-de-soleil" />
+          <div >
+          <h1>lunettes de soleil</h1>
+          <p>
+            lunettes de soleil aux lignes minimalistes. En acier inoxydable et
+            imprimées en 3D par Mykita
+          </p> 
+          <div class="icon">
+            <div>
+          <i class="fa-solid fa-plus"></i>
+          <span class="qute">0</span>
+          <i class="fa-solid fa-minus"></i>
+          <i class="fa-regular fa-heart "></i>
+          <samp class="supprimer"><img  src="./Assets/delete.svg" width="15"
+            height="15" alt="delete"></samp>
+          </div>
+          <p class="unit-price">500 </p> <span>DT</span>
+          </div>
+        </div>
+      </section>
+      <section class="card">
+        <img class="product"
+          src="./Assets/parfum.jpg" width="200" height="150" alt="parfum" />
+          <div >
+          <h1>Parfum homme</h1>
+          <p>
+            Chanel dans son magnifique visuel pour Bleu Eau de Parfum
+          </p> 
+          <div class="icon">
+            <div>
+          <i class="fa-solid fa-plus"></i>
+          <span class="qute">0</span>
+          <i class="fa-solid fa-minus"></i>
+          <i class="fa-regular fa-heart "></i>
+          <samp class="supprimer"><img  src="./Assets/delete.svg" width="15"
+            height="15" alt="delete"></samp>
+          </div>
+            <p class="unit-price">400  </p> <span>DT</span>
+          </div>
+        </div>
+      </section>
+      <section class="card">
+        <img class="product"
+          src="./Assets/ceinture.jpg" width="200" height="150" alt="ceinture" />
+          <div >
+          <h1>Ceinture homme</h1>
+          <p>
+            Superbe ceinture homme Hermès H en crocodile porosus bleu marine, 
+            boucle H en argent palladié. Intérieur en cuir lisse gold.
+          </p> 
+          <div class="icon">
+            <div>
+          <i class="fa-solid fa-plus"></i>
+          <span class="qute">0</span>
+          <i class="fa-solid fa-minus"></i>
+          <i class="fa-regular fa-heart  " ></i>
+          <samp class="supprimer"><img  src="./Assets/delete.svg" width="15"
+            height="15" alt="delete"></samp>
+          </div>
+          <p class="unit-price">400  </p> <span>DT</span>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section class="price">
+        <span>Total price :</span>
+        <span id="total-price">0</span>
+        <span>DT</span>
+      </section>
+    </main>
+    <!--footer part-->
+    <footer></footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

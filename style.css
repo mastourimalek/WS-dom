@@ -1,0 +1,21 @@
+.card {
+  border: 1px solid rgb(31, 30, 29);
+  width: 50%;
+  margin: 5% auto 5% auto;
+  background-color: azure;
+  display: flex;
+  flex-direction: row;
+}
+.product {
+  margin: auto 5% auto 5%;
+}
+.icon {
+  display: flex;
+  justify-content: space-around;
+}
+.price {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 150%;
+}
